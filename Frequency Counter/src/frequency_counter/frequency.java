@@ -14,8 +14,10 @@ public class frequency {
 				count=1;
 				h.put(a[i], count);
 			}
-			System.out.println(a[i]+"=>"+h.get(a[i]));
 		}
+		String s=h.toString();
+		char[] c=s.toCharArray();
+		System.out.println(s);
 	}
 
 }
